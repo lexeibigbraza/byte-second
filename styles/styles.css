@@ -1,0 +1,150 @@
+* {
+    margin: 0;
+    padding: 0;  
+    list-style: none;
+}
+
+body {
+    font-family: 'DM Sans', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-weight: normal;
+    font-size: 16px;
+    color: #1C1C1C;
+}
+
+.container {
+    max-width: 1250px;
+    margin: 0 auto;
+}
+
+.header{
+    margin: 13px auto 15px;
+}
+
+.flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header_ul {
+    display: flex;
+    gap: 62px;
+}
+
+.footer_ul {
+    display: flex;
+    gap: 74px;
+}
+
+.header_nav {}
+
+
+
+.header_li {
+    
+}
+
+.header_link {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 14px;
+    color: #1C1C1C;
+        text-decoration: none;
+}
+
+.button {
+    height: 40px;
+    width: 157px;
+    border-radius: 20px;
+    background: #6F2CFF;
+    border: none;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 14px;
+    color: #FFFFFF;
+}
+
+.button:hover {
+    background: #591dda;
+    transition: 800ms;
+    cursor: pointer;
+}
+
+.main_button {
+    height: 45px;
+    width: 187px;
+    margin-left: 10px;
+}
+
+.main {
+    background: rgba(246, 190, 217, 1);
+    padding: 58px 0 59px;
+}
+
+.main_title {
+    font-weight: 700;
+    font-size: 54px;
+    line-height: 61px;
+    color: #000000;
+    max-width: 470px;
+}
+
+.main_title_violet {
+    color: #6F2DFF;
+
+}
+
+.main_text {
+    margin: 16px 0;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 30px;
+    color: #000000;
+    max-width: 480px;
+}
+
+.main_text_bold {
+    font-weight: 900;
+font-size: 18px;
+line-height: 30px;
+color: #000000;
+
+}
+
+.main_input {
+    height: 40px;
+    width: 268px;
+    border: 1px solid #6F2DFF;
+    border-radius: 28px;
+    padding-left: 26px;      
+}
+
+.main_input::placeholder {
+    font-size: 15px;
+    line-height: 21px;
+    color: rgba(0, 0, 0, 0.27);
+}
+
+.main_input:focus {
+    outline: none;
+}
+
+.footer {
+    background: #20003C;
+    padding: 58px 0;
+}
+
+.footer_link {
+    
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 21px;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+
+
