@@ -131,6 +131,89 @@ color: #000000;
     outline: none;
 }
 
+.grow {
+    margin: 136px auto;
+}
+
+.grow_title {
+    max-width: 415px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 45px;
+    color: #1C1C1C;
+
+}
+
+.grow_flex {
+    display: flex;
+    gap: 35px;
+}
+
+.grow_element {
+max-width: 333px;
+text-align: center;
+}
+    
+.grow_item {
+padding: 35px 0 85px;
+box-shadow: 0px 2px 4px rgba(192, 192, 192, 0.5);
+border-radius: 0px 0px 7px 7px;
+}
+
+.grow_pretitle {
+    font-weight: 400;
+    font-size: 26px;
+    line-height: 22px;
+    color: #000000;
+    margin-bottom: 28px;
+
+}
+
+.grow_text {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;    
+    color: #6F2CFF;
+    max-width: 219px;
+    margin: 0 auto;
+    
+}
+
+.commerce {
+    margin-bottom: 136px;
+    text-align: center;
+}
+
+.commerce_title {
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 45px;
+    color: #000000;
+    margin-bottom: 79px;
+}
+
+.commerce_item {
+    max-width: 316px;
+}
+
+.commerce_pretitle {
+    font-weight: 700;
+    font-size: 19px;
+    line-height: 23px;
+    text-align: center;    
+    color: #000000;
+    margin: 42px  0 16px;
+}
+
+.commerce_text  {
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 22px;
+    color: #000000;
+
+}
+
 .footer {
     background: #20003C;
     padding: 58px 0;
